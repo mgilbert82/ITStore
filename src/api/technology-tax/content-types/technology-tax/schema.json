@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technology_taxes",
+  "info": {
+    "singularName": "technology-tax",
+    "pluralName": "technology-taxes",
+    "displayName": "Technology_tax",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "target_taxes",
+  "info": {
+    "singularName": "target-tax",
+    "pluralName": "target-taxes",
+    "displayName": "Target_tax",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

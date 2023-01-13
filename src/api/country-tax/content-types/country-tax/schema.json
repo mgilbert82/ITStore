@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "country_taxes",
+  "info": {
+    "singularName": "country-tax",
+    "pluralName": "country-taxes",
+    "displayName": "Country_tax",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

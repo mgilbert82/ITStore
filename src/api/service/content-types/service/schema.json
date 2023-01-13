@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Status": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::status.status"
+    },
+    "Country": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country-tax.country-tax"
+    },
+    "Entity": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::entity-tax.entity-tax"
+    },
+    "Target": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::target-tax.target-tax"
+    },
+    "Technology": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology-tax.technology-tax"
+    },
+    "Illustration": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
